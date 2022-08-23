@@ -1,0 +1,1 @@
+create table if not exists Contact(tel_partable varchar(20), tel_domicile varchar(20), tel_bureau varchar(20), email varchar(30));
