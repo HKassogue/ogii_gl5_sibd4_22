@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS personne(
+    nom VARCHAR(20),
+    prenom VARCHAR(30),
+    profession VARCHAR(20)
+);
+CREATE TABLE IF NOT EXISTS adresse(
+    id INT AUTOINCREMENT PRIMARY KEY,
+    depuis DATE,
+) 
