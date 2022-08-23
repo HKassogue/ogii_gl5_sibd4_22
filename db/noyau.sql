@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS personne(
+    id INT AUTOINCREMENT PRIMARY KEY,
+    nom VARCHAR(20),
+    prenom VARCHAR(30),
+    profession VARCHAR(20)
+)
