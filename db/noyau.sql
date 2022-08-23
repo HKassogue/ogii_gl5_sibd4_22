@@ -29,3 +29,9 @@ CREATE TABLE IF NOT EXISTS Justice(
     adresse VARCHAR(30),
     contacts VARCHAR(20)
 );
+CREATE TABLE IF NOT EXISTS Police(
+    id INT AUTOINCREMENT PRIMARY KEY,
+    commissariat VARCHAR(20),
+    adresse VARCHAR(30),
+    contacts VARCHAR(20)
+);
