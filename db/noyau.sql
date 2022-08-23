@@ -9,3 +9,10 @@ CREATE TABLE IF NOT EXISTS adresse(
     depuis DATE,
     
 )
+CREATE TABLE IF NOT EXISTS Localite(
+    idLocalite INT AUTOINCREMENT PRIMARY KEY,
+    nom VARCHAR(20),
+    arrondissement VARCHAR(30),
+    cercle VARCHAR(20)
+    region VARCHAR(20)
+)
