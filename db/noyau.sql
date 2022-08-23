@@ -22,3 +22,10 @@ CREATE TABLE IF NOT EXISTS Localite(
     cercle VARCHAR(20)
     region VARCHAR(20)
 );
+
+CREATE TABLE IF NOT EXISTS Justice(
+    id INT AUTOINCREMENT PRIMARY KEY,
+    tribunal VARCHAR(20),
+    adresse VARCHAR(30),
+    contacts VARCHAR(20)
+);
